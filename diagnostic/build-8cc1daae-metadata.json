@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-29T02:37:03-04:00",
+  "commit": "8cc1daae",
+  "diagnostic_logd": "diagnostic/build-8cc1daae.logd",
+  "password": "0b63f19be56f3cea",
+  "decrypt_command": "encryptly unpack diagnostic/build-8cc1daae.logd <outdir> --password 0b63f19be56f3cea",
+  "note": "encryptly binary requires glibc 2.38+ (system has 2.35). Logd stored as plaintext.",
+  "total_modules": 1,
+  "passed": 5,
+  "failed": 0,
+  "modules": [
+    {
+      "name": "health_check.py",
+      "status": "passed",
+      "tests": 5,
+      "notes": "Cross-platform memory & load fallbacks. Linux /proc path unchanged."
+    }
+  ]
+}
